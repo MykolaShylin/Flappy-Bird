@@ -120,7 +120,7 @@ namespace Flappy_BirdWinFormsApp
         {
             foreach (var tube in _tubesOnMap)
             {
-                tube.x -= 5;
+                tube.x -= 3;
             }
             CheckTubeForLivingMap();
             CreateNewTube();
